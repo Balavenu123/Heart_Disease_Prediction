@@ -1,0 +1,12 @@
+2025-12-20 14:00:01,510 - INFO - Index(['age', 'sex', 'cp', 'trestbps', 'chol', 'fbs', 'restecg', 'thalach',
+       'exang', 'oldpeak', 'slope', 'ca', 'thal'],
+      dtype='object') ---> (242, 13)
+2025-12-20 14:00:01,511 - INFO - Index(['age', 'sex', 'cp', 'trestbps', 'chol', 'fbs', 'restecg', 'thalach',
+       'exang', 'oldpeak', 'slope', 'ca', 'thal'],
+      dtype='object') ---> (61, 13)
+2025-12-20 14:00:08,136 - INFO - Outlier capping applied on chol
+2025-12-20 14:00:08,139 - INFO - Outlier capping applied on thalach
+2025-12-20 14:00:08,142 - INFO - Outlier capping applied on trestbps
+2025-12-20 14:00:08,147 - INFO - Outlier capping applied on oldpeak
+2025-12-20 14:00:08,147 - INFO - Log transformation applied on chol
+2025-12-20 14:00:08,148 - INFO - Log transformation applied on oldpeak

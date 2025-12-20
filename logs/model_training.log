@@ -1,0 +1,132 @@
+2025-12-20 14:10:49,953 - INFO - ===================KNN=======================
+2025-12-20 14:10:49,954 - INFO - Accuracy: 0.6885245901639344
+2025-12-20 14:10:49,955 - INFO - Confusion Matrix:
+[[18 11]
+ [ 8 24]]
+2025-12-20 14:10:49,961 - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.69      0.62      0.65        29
+           1       0.69      0.75      0.72        32
+
+    accuracy                           0.69        61
+   macro avg       0.69      0.69      0.69        61
+weighted avg       0.69      0.69      0.69        61
+
+2025-12-20 14:10:49,964 - INFO - AUC Score (KNN): 0.7613146551724137
+2025-12-20 14:10:49,979 - INFO - ===================Naive Bayes=======================
+2025-12-20 14:10:49,980 - INFO - Accuracy: 0.8688524590163934
+2025-12-20 14:10:49,981 - INFO - Confusion Matrix:
+[[26  3]
+ [ 5 27]]
+2025-12-20 14:10:49,988 - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.84      0.90      0.87        29
+           1       0.90      0.84      0.87        32
+
+    accuracy                           0.87        61
+   macro avg       0.87      0.87      0.87        61
+weighted avg       0.87      0.87      0.87        61
+
+2025-12-20 14:10:49,991 - INFO - AUC Score (Naive Bayes): 0.894396551724138
+2025-12-20 14:10:50,031 - INFO - ===================Logistic Regression=======================
+2025-12-20 14:10:50,032 - INFO - Accuracy: 0.8852459016393442
+2025-12-20 14:10:50,033 - INFO - Confusion Matrix:
+[[25  4]
+ [ 3 29]]
+2025-12-20 14:10:50,039 - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.89      0.86      0.88        29
+           1       0.88      0.91      0.89        32
+
+    accuracy                           0.89        61
+   macro avg       0.89      0.88      0.88        61
+weighted avg       0.89      0.89      0.89        61
+
+2025-12-20 14:10:50,041 - INFO - AUC Score (Logistic Regression): 0.9213362068965518
+2025-12-20 14:10:50,045 - INFO - ===================Decision Tree=======================
+2025-12-20 14:10:50,046 - INFO - Accuracy: 0.8360655737704918
+2025-12-20 14:10:50,047 - INFO - Confusion Matrix:
+[[27  2]
+ [ 8 24]]
+2025-12-20 14:10:50,052 - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.77      0.93      0.84        29
+           1       0.92      0.75      0.83        32
+
+    accuracy                           0.84        61
+   macro avg       0.85      0.84      0.84        61
+weighted avg       0.85      0.84      0.84        61
+
+2025-12-20 14:10:50,054 - INFO - AUC Score (Decision Tree): 0.8405172413793103
+2025-12-20 14:10:50,071 - INFO - ===================Random Forest=======================
+2025-12-20 14:10:50,071 - INFO - Accuracy: 0.8360655737704918
+2025-12-20 14:10:50,072 - INFO - Confusion Matrix:
+[[25  4]
+ [ 6 26]]
+2025-12-20 14:10:50,078 - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.81      0.86      0.83        29
+           1       0.87      0.81      0.84        32
+
+    accuracy                           0.84        61
+   macro avg       0.84      0.84      0.84        61
+weighted avg       0.84      0.84      0.84        61
+
+2025-12-20 14:10:50,081 - INFO - AUC Score (Random Forest): 0.9321120689655172
+2025-12-20 14:10:50,391 - INFO - ===================AdaBoost=======================
+2025-12-20 14:10:50,393 - INFO - Accuracy: 0.8524590163934426
+2025-12-20 14:10:50,395 - INFO - Confusion Matrix:
+[[25  4]
+ [ 5 27]]
+2025-12-20 14:10:50,402 - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.83      0.86      0.85        29
+           1       0.87      0.84      0.86        32
+
+    accuracy                           0.85        61
+   macro avg       0.85      0.85      0.85        61
+weighted avg       0.85      0.85      0.85        61
+
+2025-12-20 14:10:50,405 - INFO - AUC Score (AdaBoost): 0.8970905172413793
+2025-12-20 14:10:50,425 - INFO - ===================Gradient Boosting=======================
+2025-12-20 14:10:50,426 - INFO - Accuracy: 0.8524590163934426
+2025-12-20 14:10:50,427 - INFO - Confusion Matrix:
+[[24  5]
+ [ 4 28]]
+2025-12-20 14:10:50,434 - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.86      0.83      0.84        29
+           1       0.85      0.88      0.86        32
+
+    accuracy                           0.85        61
+   macro avg       0.85      0.85      0.85        61
+weighted avg       0.85      0.85      0.85        61
+
+2025-12-20 14:10:50,437 - INFO - AUC Score (Gradient Boosting): 0.9191810344827586
+2025-12-20 14:10:50,511 - INFO - ===================XGBoost=======================
+2025-12-20 14:10:50,513 - INFO - Accuracy: 0.819672131147541
+2025-12-20 14:10:50,515 - INFO - Confusion Matrix:
+[[25  4]
+ [ 7 25]]
+2025-12-20 14:10:50,525 - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.78      0.86      0.82        29
+           1       0.86      0.78      0.82        32
+
+    accuracy                           0.82        61
+   macro avg       0.82      0.82      0.82        61
+weighted avg       0.82      0.82      0.82        61
+
+2025-12-20 14:10:50,530 - INFO - AUC Score (XGBoost): 0.9073275862068966
+2025-12-20 14:10:56,147 - INFO - ==============================================
+2025-12-20 14:10:56,148 - INFO - Best Model Based on AUC: Random Forest
+2025-12-20 14:10:56,148 - INFO - Best AUC Score: 0.9321120689655172
+2025-12-20 14:10:56,148 - INFO - ==============================================
